@@ -156,12 +156,4 @@ tf: ["true", "false"]
 },
 url: "https://scratch.mit.edu/projects/117593195/"
 }
-var working = true
-try {ScratchExtensions.register("ExtenilK", descriptor, ext)}
-catch(e) {window.alert("✖ ExtenilK cannot be installed at this time.\n\
-ERROR: ".concat(e))
-console.error(e)
-working = false}
-if(working) {alert("✔ ExtenilK has been successfully installed!\n\
-Caution: ExtenilK can run user JavaScript commands and can add/change elements.")}
 })({})
